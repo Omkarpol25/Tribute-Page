@@ -85,7 +85,7 @@ audio
     .main
     {
         padding:20px 2px;
-        height:2500px;
+        height:2128px;
     }
     .bio
     {
@@ -101,6 +101,6 @@ audio
     {
     margin: 10px 2px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 30px;
     }
 }
