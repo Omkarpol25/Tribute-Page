@@ -1,0 +1,105 @@
+body
+{
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.main
+{
+    background-color:black ;
+    width: 1000px;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    padding: 4px 4px;
+}
+header h1
+{
+    text-align: center;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin: 2px 2px;
+    font-weight: 500;
+    color: beige;
+}
+header h3
+{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    margin: 8px 2px;
+    color: beige;
+}
+.sound
+{
+    text-align: center;
+    margin: 70px 20px;
+}
+audio
+{
+    margin: 8px 20px;
+}
+.mid
+{
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin:auto;
+    padding: 2px 2px;
+}
+.mid img
+{
+    width: 600px;
+    height: 300px; 
+    margin: 48px 2px;
+}
+.bio
+{
+    text-align: center;
+    color: white;
+    /* border: 2px solid white; */
+    margin: 2px 2px;
+    padding: 2px 150px;
+}
+.bio h1
+{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px 4px;
+    margin-bottom: 15px;
+}
+.bio p
+{
+    margin: 10px 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 600px)
+{
+    body
+    {
+        margin: 1px 1px ;
+    }
+    .main
+    {
+        padding:20px 2px;
+    }
+    .bio
+    {
+    margin: 2px 2px;
+    padding: 2px 120px;
+    height: 980px;
+    }
+    .bio h1
+    {
+        font-size: 80px; 
+    }
+    .bio p
+    {
+    margin: 10px 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    }
+}
